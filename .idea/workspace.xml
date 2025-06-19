@@ -5,36 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11c9fe5b-1cd3-4808-a4ef-2ba7498e0805" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/VendingMachine/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/VendingMachineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/controler/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/exceptions/AmountEnteredIsLessThenItemPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/exceptions/OperationNotAllowedOnCurrentState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/exceptions/itemNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/helper/VendingMachineHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/models/Amount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/models/CoinType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/models/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/models/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/models/ItemShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/models/ItemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/stateMachine.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/statemachine/DispenseState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/statemachine/IdealState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/statemachine/InsertCointState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/statemachine/ProductSelectionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VendingMachine/src/main/java/org/statemachine/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splitwise/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splitwise/src/main/java/org/exceptions/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splitwise/src/main/java/org/manager/DebtManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splitwise/src/main/java/org/manager/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splitwise/src/main/java/org/models/Expense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splitwise/src/main/java/org/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splitwise/src/main/java/org/startegy/EqualSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splitwise/src/main/java/org/startegy/SplitStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splitwise/src/main/java/requirement.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileManagement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileManagement/src/main/java/org/filesystem/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileManagement/src/main/java/org/filesystem/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileManagement/src/main/java/org/filesystem/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileManagement/src/main/java/org/filesystem/FileSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -46,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Controller.executor": "Run",
     "Application.VendingMachineController.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -76,7 +52,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/rahulgoswami/Desktop/services/LowLevelDesign/VendingMachine/src/main/java/org/example/Main.java",
+    "onboarding.tips.debug.path": "/Users/rahulgoswami/Desktop/services/LowLevelDesign/FileManagement/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -98,7 +74,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Controller">
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.filesystem.Controller" />
+      <module name="FileManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.filesystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VendingMachineController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -114,8 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Controller" />
+      <item itemvalue="Application.VendingMachineController" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Controller" />
         <item itemvalue="Application.VendingMachineController" />
       </list>
     </recent_temporary>
@@ -136,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750132463479</updated>
-      <workItem from="1750132464652" duration="18497000" />
+      <workItem from="1750132464652" duration="20340000" />
     </task>
     <servers />
   </component>
@@ -180,6 +174,11 @@
           <url>file://$PROJECT_DIR$/VendingMachine/src/main/java/org/controler/VendingMachine.java</url>
           <line>25</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FileManagement/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

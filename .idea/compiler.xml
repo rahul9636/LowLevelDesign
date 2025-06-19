@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="UberRideService" />
+        <module name="FileManagement" />
         <module name="VendingMachine" />
+        <module name="UberRideService" />
         <module name="splitwise" />
       </profile>
     </annotationProcessing>
